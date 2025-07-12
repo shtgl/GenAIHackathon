@@ -1,0 +1,3 @@
+2025-07-12 12:16:17,738 - INFO - SimpleRAGService initialized
+2025-07-12 12:16:17,738 - INFO - Global RAG service instance created
+2025-07-12 12:16:17,751 - INFO - RAG: Starting Flask application

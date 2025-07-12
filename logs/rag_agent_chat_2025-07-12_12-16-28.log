@@ -1,0 +1,47 @@
+2025-07-12 12:16:28,755 - INFO - RAG: Starting Flask application
+2025-07-12 12:17:27,429 - INFO - RAG: User accessed the main page
+2025-07-12 12:17:35,608 - INFO - RAG: Processing user query: What does document focus on?...
+2025-07-12 12:17:35,612 - INFO - Initializing AutoGen RAG service with PDF documents...
+2025-07-12 12:17:35,613 - INFO - ChromaDB memory initialized with collection: financial_docs
+2025-07-12 12:17:36,221 - INFO - Cleared existing memory
+2025-07-12 12:17:36,222 - INFO - Indexing PDF documents...
+2025-07-12 12:17:36,222 - INFO - DocumentIndexer initialized with chunk_size: 1500
+2025-07-12 12:17:36,223 - INFO - Starting to index 2 documents
+2025-07-12 12:17:36,223 - INFO - Processing Earnings Call Transcript Q2 - FY25.pdf...
+2025-07-12 12:17:36,224 - INFO - PDF file found: f:\Study\Internship\Research\genfi\hackathon\vector_db\fin_data\Earnings Call Transcript Q2 - FY25.pdf
+2025-07-12 12:17:36,225 - INFO - Reading PDF: f:\Study\Internship\Research\genfi\hackathon\vector_db\fin_data\Earnings Call Transcript Q2 - FY25.pdf
+2025-07-12 12:17:36,246 - INFO - PDF has 20 pages
+2025-07-12 12:17:36,330 - INFO - First page text length: 746 characters
+2025-07-12 12:17:36,331 - INFO - First page text preview: Page 1 of 20 
+  
+ 
+“Bajaj Finserv Limited  
+Q2 FY '25 Earnings Conference Call ” 
+October 25, 202 4 ...
+2025-07-12 12:17:38,239 - INFO - Total extracted text length: 61656 characters
+2025-07-12 12:17:38,240 - INFO - Extracted 61656 characters from Earnings Call Transcript Q2 - FY25.pdf
+2025-07-12 12:17:38,244 - INFO - Created 15 chunks from Earnings Call Transcript Q2 - FY25.pdf
+2025-07-12 12:17:47,030 - INFO - Processing Earnings Call Transcript Q1 - FY25  .pdf...
+2025-07-12 12:17:47,030 - INFO - PDF file found: f:\Study\Internship\Research\genfi\hackathon\vector_db\fin_data\Earnings Call Transcript Q1 - FY25  .pdf
+2025-07-12 12:17:47,031 - INFO - Reading PDF: f:\Study\Internship\Research\genfi\hackathon\vector_db\fin_data\Earnings Call Transcript Q1 - FY25  .pdf
+2025-07-12 12:17:47,035 - INFO - PDF has 21 pages
+2025-07-12 12:17:47,087 - INFO - First page text length: 711 characters
+2025-07-12 12:17:47,087 - INFO - First page text preview: Page 1 of 21 
+  
+ 
+“Bajaj Finserv Limited 
+Q1 FY‘25 Earnings Conference Call” 
+July 25, 2024 
+ 
+ 
+ 
+...
+2025-07-12 12:17:47,968 - INFO - Total extracted text length: 60805 characters
+2025-07-12 12:17:47,968 - INFO - Extracted 60805 characters from Earnings Call Transcript Q1 - FY25  .pdf
+2025-07-12 12:17:47,971 - INFO - Created 14 chunks from Earnings Call Transcript Q1 - FY25  .pdf
+2025-07-12 12:17:52,610 - INFO - Total chunks indexed: 29
+2025-07-12 12:17:52,610 - INFO - Indexed 29 chunks from 2 PDF documents
+2025-07-12 12:17:52,610 - INFO - Creating model client with Gemini 2.0 Flash
+2025-07-12 12:17:52,946 - INFO - AutoGen RAG service initialized successfully
+2025-07-12 12:17:53,329 - WARNING -   Memory content structure: <class 'autogen_core.memory._base_memory.MemoryQueryResult'>
+2025-07-12 12:17:56,436 - INFO - RAG: Generated response for user query
